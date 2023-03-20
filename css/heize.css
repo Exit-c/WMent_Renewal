@@ -1,0 +1,41 @@
+.mainbanner{ width: 100%; height: 500px; background-image: url(../images/heize/main_image.jpg); background-position: center 0; background-repeat: no-repeat; background-size: cover; padding-top: 290px; box-sizing: border-box;}
+.mainbanner .wrap{ width: 1180px; margin: 0 auto; }
+.mainbanner h2{ font-size: 50px; color: #fff; }
+.mainbanner h2:before{ content: ''; display: inline-block; width: 200px; height: 3px; background-color: #fff; margin-bottom: 16px; }
+
+.image{ width: 1180px; overflow: hidden; margin: 0 auto; margin-top: -100px; margin-bottom: 150px; }
+.image li{ float: left; width: 580px; overflow: hidden; }
+.image li img{ display: block; width: 580px; }
+.image .image01{ margin-right: 20px; }
+.image .image02{ margin-bottom: 20px; }
+
+.album{ width: 1180px; overflow: hidden; margin: 0 auto 150px; }
+.album .swiper-container{ width: 100%; }
+.album .swiper-wrapper{ width: 100%; }
+.album .swiper-slide{ width: 280px; height: 280px; background-image: url(../images/heize/album_image_all.jpg); background-repeat: no-repeat; background-size: cover; text-indent: -999em; }
+.album .album02{ background-position: -280px; }
+.album .album03{ background-position: -560px; }
+.album .album04{ background-position: -840px; }
+.album .album05{ background-position: -1120px; }
+.album .album06{ background-position: -1400px; }
+.album .album07{ background-position: -1680px; }
+.album .album08{ background-position: -1960px; }
+.album .album09{ background-position: -2240px; }
+.album .album10{ background-position: -2520px; }
+.album .album11{ background-position: -2800px; }
+.album .album12{ background-position: -3080px; }
+.album .album13{ background-position: -3360px; }
+.album .album14{ background-position: -3640px; }
+.album .album15{ background-position: -3920px; }
+.album .album16{ background-position: -4200px; }
+.album .album17{ background-position: -4480px; }
+.album .album18{ background-position: -4760px; }
+.album .album19{ background-position: -5040px; }
+.album .album20{ background-position: -5320px; }
+.album .swiper-pagination{ position: absolute; top: 276px; }
+
+.musicvideo{ width: 100%; overflow: hidden; padding: 50px 0; box-sizing: border-box; background-color: #000; margin-bottom: 150px; }
+.musicvideo .swiper-container{ width: 1180px; margin: 0 auto; }
+.musicvideo .swiper-wrapper{ width: 100%; }
+.musicvideo .swiper-slide{ width: 1180px; overflow: hidden; }
+.musicvideo iframe{ display: block; width: 1000px; height: 562px; margin: 0 auto; border: none; border-bottom: 1px solid #ccc; box-sizing: border-box; }

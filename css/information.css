@@ -1,0 +1,26 @@
+.subcontent .nav{ float: right; width: 400px; height: 55px; border: 1px solid #acacac; box-sizing: border-box; margin-bottom: 20px; }
+.subcontent .nav li{ float: left; width: 50%; height: 100%; padding-top: 15px; padding-left: 60px;  box-sizing: border-box;  }
+.subcontent .nav a{ font-size: 15px; text-transform: uppercase;  }
+
+
+.subcontent .textbox{ border: 1px solid #acacac; clear: both; padding-bottom: 80px;  }
+.subcontent .textbox img{ margin-bottom: 70px; }
+.subcontent .textbox > p{ font-size: 15px; text-transform: uppercase; margin-bottom: 120px; padding-left: 160px; letter-spacing: 1.5px; }
+.subcontent .textbox > p > span{ font-size: 15px; color: #ff33cc; text-transform: uppercase; }
+
+.subcontent .textbox h4{ height: 60px; font-weight: bold; font-size: 20px; line-height: 60px;  padding-left: 80px; background-repeat: no-repeat; background-position: left center; margin-bottom: 10px; margin-left: 130px; }
+.subcontent .textbox .icon01{ background-image: url(../images/information/information_icon_01.png); }
+.subcontent .textbox .icon02{ background-image: url(../images/information/information_icon_02.png); margin-top: 60px;  }
+.subcontent .textbox .icon03{ background-image: url(../images/information/information_icon_03.png); margin-top: 60px;  }
+
+.subcontent .information{ margin-left: 210px; }
+.subcontent .information > li{ font-size: 16px; margin-bottom: 10px; letter-spacing: 1px;  }
+.subcontent .information > li > ol{ margin-top: 10px; padding-left: 10px;  }
+.subcontent .information > li > ol > li{ font-size: 14px; margin-bottom: 10px; letter-spacing: 0.5px; }
+.subcontent .information > li > p{ margin-top: 10px; padding-left: 10px; font-size: 14px;  }
+
+.subcontent .process{ margin-left: 210px; }
+.subcontent .process li{ font-size: 14px; margin-bottom: 10px;  }
+
+.subcontent .note{ margin-left: 210px; }
+.subcontent .note li{ margin-bottom: 10px; font-size: 14px; }

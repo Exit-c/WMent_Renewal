@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>JOIN | WMENT</title>
+        <link rel="shortcut icon" href="../images/common/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="180x180" href="../images/common/favicon_ios.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="../images/common/favicon_android.png">
+        <link rel="stylesheet" href="../css/ui.totop.css">
+        <link rel="stylesheet" href="../css/colorbox.css">
+        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/sub.css">
+        <link rel="stylesheet" href="../css/join.css">
+        <script src="../js/jquery-1.12.0.min.js"></script>
+        <script src="../js/easing.js"></script>
+        <script src="../js/jquery.ui.totop.js"></script>
+        <script src="../js/jquery.colorbox-min.js"></script>
+        <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+        <script src="../js/common.js"></script>
+        <script src="../js/join.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="hwrap">
+                <h1>
+                    <a href="../index.html" title="WM로고"></a>
+                </h1>
+                <nav class="gnb">
+                    <ul>
+                        <li><a href="../company/introduction.html">company</a>
+                            <ul class="subnav">
+                                <li><a href="../company/introduction.html">introduction</a></li>
+                                <li><a href="../company/business.html">business</a></li>
+                                <li><a href="../company/contactus.html">contact us</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../artists/musicians.html">artists</a>
+                            <ul class="subnav">
+                                <li><a href="../artists/musicians.html">musicians</a></li>
+                                <li><a href="../artists/actors.html">actors</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../notice/news.html">notice</a>
+                            <ul class="subnav">
+                                <li><a href="../notice/news.html">news</a></li>
+                                <li><a href="../notice/event.html">event</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../audition/information.html">audition</a>
+                            <ul class="subnav">
+                                <li><a href="../audition/information.html">information</a></li>
+                                <li><a href="../audition/faq.html">faq</a></li>
+                            </ul>
+                        </li>
+                        <li class="last"><a href="../store/goodsshop.html">store</a>
+                            <ul class="subnav">
+                                <li><a href="../store/goodsshop.html">goodsshop</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="tnav">
+                    <div class="language"><a href="#">ENG</a></div>
+                    <div class="icon">
+                        <ul>
+                            <li class="login"><a href="../tnav/login.html">LOGIN</a></li>
+                            <li class="join"><a href="../tnav/join.html">JOIN</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="submainbanner sub06">
+            <h2 class="title">회원가입</h2>
+            <p><span>Welcome</span><br>WM 엔터테인먼트에 오신 것을 환영합니다</p>
+        </div>
+        <div class="invigator">
+            <div class="mwrap">
+                <ul>
+                    <li class="homeicon"><a href="../index.html"></a></li>
+                    <li>JOIN</li>
+                </ul>
+            </div>
+        </div>
+        <div class="subcontent">
+            <div class="mwrap">
+                <h3>JOIN</h3>
+                <form>
+                    <h4>회원정보입력</h4>
+                    <label for="joinemail">아이디(이메일)</label>
+                    <input type="text" id="joinemail" class="box01">
+                    <input type="button" value="중복확인">
+                    <br>
+                    <label for="joinname">이름</label>
+                    <input type="text" id="joinname" class="box01">
+                    <br>
+                    <label for="joinnumber">휴대폰</label>
+                    <select id="joinnumber" class="box02">
+                        <option>010</option>
+                        <option>011</option>
+                        <option>016</option>
+                        <option>017</option>
+                        <option>018</option>
+                        <option>019</option>
+                    </select>-
+                    <input type="text" class="box02">-
+                    <input type="text" class="box02">
+                    <br>
+                    <label for="joinpw" class="margin">비밀번호</label>
+                    <input type="password" id="joinpw" class="box01">
+                    <br>
+                    <p>안전한 비밀번호를 위해 문자,숫자 조합하여 10 ~ 16자 이상으로 입력해주세요.</p>
+                    <label for="joinpwchk">비밀번호 확인</label>
+                    <input type="password" id="joinpwchk" class="box01">
+                    <br>
+                    <span class="birthdate">생년월일</span>
+                    <select id="joinyear" class="box03"></select>
+                    <label for="joinyear" class="margin02">년</label>
+                    <select id="joinmonth" class="box03"></select>
+                    <label for="joinmonth" class="margin02">월</label>
+                    <select id="joindate" class="box03"></select>
+                    <label for="joindate" class="margin02">일</label>
+                    <br>
+                    <label for="joinaddress" class="margin">주소</label>
+                    <input type="text" id="joinaddress" class="box04">
+                    <input type="button" value="우편번호 찾기" class="position01" onclick="execDaumPostcode()" id="postbtn">
+                    <label for="postbtn" class="away">우편번호찾기 버튼</label>
+                    <input type="text" class="box04 margin03" id="address">
+                    <input type="text" id="detailAddress" class="box04" placeholder="나머지 주소를 입력하세요">
+                    <br>
+                    <label for="joinnickname" class="margin">닉네임</label>
+                    <input type="text" id="joinnickname" class="box01" placeholder="한글, 숫자 5자 이내로 입력하세요">
+                    <p class="color">욕설 등 부적절한 단어는 제한을 받습니다.</p>
+                    <input type="submit" id="joinsubmit" value="회원가입">
+                    <label for="joinsubmit" class="away">회원가입</label>
+                    
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="fwrap">
+                <div class="ftop">
+                    <h1>wm로고</h1>   
+                    <ul>
+                        <li class="sns01"><a href="#twitter">트위터아이콘</a></li>
+                        <li class="sns02"><a href="#facebook">페이스북아이콘</a></li>
+                        <li class="sns03"><a href="#youtube">유튜브아이콘</a></li>
+                        <li class="sns04"><a href="#instagram">인스타아이콘</a></li>
+                    </ul>
+                </div>
+                <div class="fnav">
+                    <ul>
+                        <li><a href="#information">회사소개</a></li>
+                        <li><a href="#recruitment">인재채용</a></li>
+                        <li><a href="#termsandconditions">이용약관</a></li>
+                        <li><a href="#personaldata">개인정보취급방침</a></li>
+                        <li><a href="#youth">청소년 보호정책</a></li>
+                        <li><a href="#center">고객센터</a></li>
+                        <li><a href="#copyright">저작권 보호</a></li>
+                        <li><a href="#email">이메일 무단수집 거부</a></li>
+                        <li class="last"><a href="../fnav/sitemap.html" class="iframe">사이트맵</a></li>
+                    </ul>
+                </div>
+                <div class="fbottom">
+                    <ul class="address">
+                        <li>· WM엔터테인먼트 : 서울특별시 마포구 망원동 314-6 WM엔터테인먼트 빌딩</li>
+                        <li>· 대표번호 : 02) 534-3369</li>
+                        <li class="center">· 사업자 등록번호 : 225-83-22010</li>
+                        <li>· 문의사항 : webmaster@wmenter.com</li>
+                        <li class="last">COPYRIGHT(C) 2011 WM ENTERTAINMENT ALL RIGHT RESERVED.</li>
+                    </ul>
+                    <ul class="logo">
+                        <li class="stone"><a href="#stone"></a></li>
+                        <li class="kakao"><a href="#kakao"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div id="layer">
+            <img src="http://t1.daumcdn.net/postcode/resource/images/close.png" id="btnCloseLayer" onclick="closeDaumPostcode()" alt="닫기 버튼">
+        </div>
+        <script src="../js/post.js"></script>
+    </body>
+</html>

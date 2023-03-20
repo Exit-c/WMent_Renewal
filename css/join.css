@@ -1,0 +1,26 @@
+.subcontent form{ width: 930px; height: 740px; border: 1px solid #e1e1e1; box-sizing: border-box; padding-top: 20px; padding-left: 30px; margin: 0 auto; color: #999; font-size: 20px; font-weight: 500; }
+.subcontent form h4{ font-size: 24px; color: #333; line-height: 22px; font-weight: 500; margin-bottom: 50px; }
+.subcontent form label.away{ position: absolute; left: -999em; }
+.subcontent form label{ display: inline-block; width: 210px; font-size: 16px; font-weight: 500; color: #666; margin-bottom: 40px; }
+.subcontent form label.margin{ margin-bottom: 0; }
+.subcontent form label.margin02{ width: 0px; position: relative; left: -15px; color: #999; font-size: 15px; }
+.subcontent form input.margin03{ margin-left: 214px; }
+.subcontent form .box01{ width: 270px; height: 30px; border: 1px solid #ccc; box-sizing: border-box; padding-left: 10px; }
+.subcontent form .box02{ width: 95px; height: 30px; border: 1px solid #ccc; box-sizing: border-box; margin-right: 5px; padding-left: 10px; }
+.subcontent form select.box02{ padding-left: 6px; }
+.subcontent form .box03{ width: 80px; height: 30px; border: 1px solid #ccc; box-sizing: border-box; padding-left: 10px; }
+.subcontent form select.box03{ padding-left: 6px; margin-right: 15px; }
+.subcontent form .box04{ width: 270px; height: 30px; border: 1px solid #ccc; box-sizing: border-box; padding-left: 10px; position: relative; top: -20px; }
+.subcontent form .position01{ position: relative; top: -20px; }
+.subcontent form input[type=button]{ height: 30px; border: 1px solid #e9bae5; border-radius: 5px; box-sizing: border-box; padding: 0 10px; background-color: transparent; color: #cc3399; font-weight: 500; }
+.subcontent form p{ font-size: 12px; color: #999; position: relative; top: 0; left: 215px; margin-bottom: 12px; margin-top: 5px; }
+.subcontent form .birthdate{ display: inline-block; width: 210px; font-size: 16px; font-weight: 500; color: #666; margin-bottom: 40px; }
+.subcontent form #joinaddress{ margin-bottom: 5px; }
+.subcontent form input::placeholder{ color: #999; }
+.subcontent form p.color{ color: #cc3399; padding-left: 20px; background-image: url(../images/join/join_icon_01.png); background-repeat: no-repeat; background-position: left center; margin-bottom: 30px; }
+.subcontent form #joinsubmit{ display: block; width: 470px; height: 55px; border: none; background-color: #cc3399; color: #fff; font-size: 20px; margin: 0 auto; }
+.subcontent input[type=button], .subcontent input[type=submit]{ cursor: pointer; }
+
+/* daum 우편번호창 */
+#layer{ display:none;position:fixed;overflow:hidden;z-index:1;-webkit-overflow-scrolling:touch; }
+#btnCloseLayer{ cursor:pointer;position:absolute;right:-3px;top:-3px;z-index:1; }

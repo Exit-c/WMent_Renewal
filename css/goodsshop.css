@@ -1,0 +1,19 @@
+.subcontent ul{ width: 1180px; overflow: hidden; }
+.subcontent li{ float: left; width: 295px; height: 295px; border-left: 1px solid #e1e1e1; box-sizing: border-box; border-top: 1px solid #e1e1e1; overflow: hidden; }
+.subcontent li a{ display: block; width: 295px; height: 295px; background-repeat: no-repeat; background-position: center 40px; background-size: contain;  }
+.goods04, .goods08, .goods12{ border-right: 1px solid #e1e1e1; box-sizing: border-box; }
+.goods09, .goods10, .goods11, .goods12{ border-bottom: 1px solid #e1e1e1; box-sizing: border-box; }
+
+.goods01 a{ background-image: url(../images/goodsshop/goods_image_01.jpg); }
+.goods02 a{ background-image: url(../images/goodsshop/goods_image_02.jpg); }
+.goods03 a{ background-image: url(../images/goodsshop/goods_image_03.jpg); }
+.goods04 a{ background-image: url(../images/goodsshop/goods_image_04.jpg); }
+.goods05 a{ background-image: url(../images/goodsshop/goods_image_05.jpg); }
+.goods06 a{ background-image: url(../images/goodsshop/goods_image_06.jpg); } 
+.goods07 a{ background-image: url(../images/goodsshop/goods_image_07.jpg); }
+.goods08 a{ background-image: url(../images/goodsshop/goods_image_08.jpg); }
+.goods09 a{ background-image: url(../images/goodsshop/goods_image_09.jpg); }
+.goods10 a{ background-image: url(../images/goodsshop/goods_image_10.jpg); }
+.goods11 a{ background-image: url(../images/goodsshop/goods_image_11.jpg); }
+.goods12 a{ background-image: url(../images/goodsshop/goods_image_12.jpg); }
+

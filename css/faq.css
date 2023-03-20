@@ -1,0 +1,5 @@
+iframe{ border: none; }
+.subcontent{ margin-bottom: 0; }
+.subcontent .nav{ float: right; width: 400px; height: 55px; border: 1px solid #acacac; box-sizing: border-box; margin-bottom: 20px; }
+.subcontent .nav li{ float: left; width: 50%; height: 100%; padding-top: 15px; padding-left: 60px;  box-sizing: border-box;  }
+.subcontent .nav a{ font-size: 15px; text-transform: uppercase;  }

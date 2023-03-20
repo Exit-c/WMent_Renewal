@@ -1,0 +1,25 @@
+.subcontent .mwrap h4.musicians{ float: left; width: 49%; text-align: center; border-bottom: 2px solid #333;  padding-bottom: 10px; box-sizing: border-box; }
+.subcontent .mwrap h4.musicians a{ font-size: 20px; font-weight: bold; text-transform: uppercase; color: #333; }
+.subcontent .mwrap h4.actors{ float: right; width: 49%; text-align: center; border-bottom: 2px solid #cc3399; padding-bottom: 10px; box-sizing: border-box;}
+.subcontent .mwrap h4.actors a{ font-size: 20px; font-weight: bold; text-transform: uppercase; color: #cc3399; }
+
+.subcontent .mwrap ul{ width: 1090px; overflow: hidden; margin: 0 auto; padding-top: 70px; }
+.subcontent .mwrap ul li{ float: left; width: 350px; height: 350px; background-repeat: no-repeat; margin-right: 20px; margin-bottom: 20px; position: relative;  }
+.subcontent .mwrap ul .right{ margin-right: 0; }
+.subcontent .mwrap ul .artists01{ background-image: url(../images/actors/actors_image_01.jpg); }
+.subcontent .mwrap ul .artists02{ background-image: url(../images/actors/actors_image_02.jpg); }
+.subcontent .mwrap ul .artists03{ background-image: url(../images/actors/actors_image_03.jpg); }
+.subcontent .mwrap ul .artists04{ background-image: url(../images/actors/actors_image_04.jpg); margin-bottom: 0; }
+.subcontent .mwrap ul .artists05{ background-image: url(../images/actors/actors_image_05.jpg); margin-bottom: 0; }
+
+
+.subcontent .mwrap ul li div{ width: 350px; height: 350px; position: absolute; left: 0; top: 0; background-color: rgba(204,51,153,0.4); transition: 0.6s; opacity: 0; }
+.subcontent .mwrap ul li div.on{ width: 350px; height: 350px; position: absolute; left: 0; top: 0; background-color: rgba(204,51,153,0.4); transition: 0.6s; opacity: 1; }
+.subcontent .mwrap span.job{ display: block; width: 100%; font-size: 20px; font-weight: 400; text-align: center; letter-spacing: 2px; color: #fff; position: absolute; top: 120px; }
+.subcontent .mwrap span.job:before{ content: ''; display: block; width: 12px; height: 12px; background-color: #fff; border-radius: 6px; position: relative; top: 10px; left: 125px; }
+.subcontent .mwrap span.name{ display: block; width: 100%; font-size: 25px; font-weight: 500; letter-spacing: 1px; text-align: center; color: #fff; position: absolute; top: 180px;  }
+.subcontent .mwrap a.more{ font-size: 14px; font-weight: 400; letter-spacing: 1.5px; color: #fff; position: absolute; bottom: 10px; right: 15px; }
+.subcontent .mwrap a.more span{ display: block; width: 72px; height: 7px; background-image: url(../images/musicians/arrow_btn.png); background-repeat: no-repeat; margin-left: 5px; }
+
+.subcontent .mwrap ul li:hover div{ transition: 0.6s; opacity: 1; }
+

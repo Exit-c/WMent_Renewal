@@ -1,0 +1,15 @@
+.sitemap{ width: 730px; height: 350px; padding-top: 20px;  }
+.sitemap h2{ width: 130px; color: #333; font-size: 30px;  border-bottom: 2px solid #e028bd; margin: 0 auto; margin-bottom: 20px; }
+
+.sitemapgnb{ width: 730px; height: 270px; }
+.sitemapgnb > ul > li{ float: left; height: 60px; line-height: 17px; padding-right: 50px; padding-top: 20px;  border-bottom: 1px solid #333; box-sizing: border-box; }
+.sitemapgnb > ul > li.first{ padding-left: 14px; box-sizing: border-box;  }
+.sitemapgnb > ul > li.last{ width: 99px; margin-right: 0; }
+.sitemapgnb > ul > li > h3{ color: #333; font-size: 25px; transition: color 0.4s; font-weight: 400; }
+.sitemapgnb > ul > li > h3:hover{ color: #e028bd; transition: color 0.4s;  }
+.sitemapgnb > ul > li > h3:focus{ color: #e028bd; }
+
+.sitemapgnb .sitemapsub{ margin-top: 40px; }
+.sitemapgnb .sitemapsub a{ display: block; color: #333; font-size: 14px; text-transform: uppercase; margin-bottom: 35px; transition: color 0.4s; }
+.sitemapgnb .sitemapsub a:hover{ color: #e028bd; transition: color 0.4; }
+.sitemapgnb .sitemapsub a:focus{ color: #e028bd; }

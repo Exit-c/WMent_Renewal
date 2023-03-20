@@ -1,0 +1,4 @@
+.subcontent .mwrap h3{ margin-bottom: 80px; }
+.subcontent .mwrap h4{ font-size: 25px; font-weight: 500; color: #cc3399; width: 940px; margin: 0 auto 25px;  }
+.subcontent .mwrap p{ font-size: 20px; color: #666; margin: 0 auto; width: 940px; }
+.subcontent .mwrap span{ display: block; width: 800px; height: 360px; background-image: url(../images/introduction/introduction_image.png); margin: 140px auto 0; text-indent: -999em; }

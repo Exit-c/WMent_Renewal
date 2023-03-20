@@ -1,0 +1,11 @@
+.subcontent .mwrap p{ font-size: 23px; font-weight: 500; color: #666; letter-spacing: 1px; margin-bottom: 150px; }
+.subcontent .mwrap p span{ font-size: 31px; font-weight: 400; color: #e085c2; transition-delay: 2s; }
+.subcontent .mwrap .side01{ margin-left: 320px; }
+.subcontent .mwrap .side02{ margin-left: 75px; }
+.subcontent .mwrap img{ margin-bottom: 70px; }
+.subcontent .mwrap .right{ margin-left: 475px; }
+
+.subcontent .mwrap div img{ opacity: 0; }
+.subcontent .mwrap div img.on{ opacity: 1; transition: 1s; }
+.subcontent .mwrap div p{ opacity: 0; }
+.subcontent .mwrap div p.on{ opacity: 1; transition: 1s; transition-delay: 0.8s; }

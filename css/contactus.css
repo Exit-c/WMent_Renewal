@@ -1,0 +1,12 @@
+/* 다음 지도 */
+#map{ width: 1180px; height: 640px; margin-bottom: 50px; }
+
+
+.subcontent .mwrap h4{ font-size: 28px; font-weight: 500; letter-spacing: 1px; color: #333; padding-left: 45px; padding-bottom: 5px; border-bottom: 1px solid #333; box-sizing: border-box; margin-bottom: 15px;  background-repeat: no-repeat; }
+.subcontent .mwrap .icon01{ background-image: url(../images/contactus/icon_01.png); }
+.subcontent .mwrap .icon02{ background-image: url(../images/contactus/icon_02.png); }
+.subcontent .mwrap .icon03{ background-image: url(../images/contactus/icon_03.png); }
+.subcontent .mwrap p{ font-size: 20px; font-weight: 500; color: #333; margin-bottom: 40px; margin-left: 10px; }
+.subcontent .mwrap p.text01{ line-height: 40px; margin-bottom: 30px; }
+.subcontent .mwrap p.text02{ padding-left: 30px; background-image: url(../images/contactus/icon_04.png); background-repeat: no-repeat; background-position: left center; }
+.subcontent .mwrap p.text03{ margin-bottom: 0; }
